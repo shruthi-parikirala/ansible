@@ -1,0 +1,5 @@
+rm -rf test
+mkdir test
+cp /home/jenkins/playbook1.yml /home/jenkins/workspace/job-4/test
+cd test
+ansible-playbook /home/jenkins/playbook1.yml
